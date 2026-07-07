@@ -7,7 +7,10 @@ body{
     background-color: black;
     color:orangered;
 }
-
+section{
+    width:100%;
+    min-height:100vh;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -158,6 +161,7 @@ h1{
     font-family: "Yesteryear", cursive;
     font-weight: 400;
     font-size: 27px;
+    text-align: center;
 }
 
 section{
@@ -190,11 +194,12 @@ section{
 
 #aboutus p{
     text-align: justify;
-    margin: 12px;
-    padding: 5px;
+    margin: 15px;
+    padding: 7px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     color:orangered;
+    width: 650px;
 }
 
 #programs h1{
