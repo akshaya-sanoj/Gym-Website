@@ -11,6 +11,7 @@ section{
     width:100%;
     min-height:100vh;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -164,10 +165,7 @@ h1{
     text-align: center;
 }
 
-section{
-    width:100%;
-    min-height:100vh;
-}
+
 
 #aboutus img{
     width: 550px;
@@ -225,7 +223,7 @@ section{
 #programs .row1{
     display:flex;
     justify-content:center;
-    gap:30px;
+    gap:100px;
     flex-wrap:wrap;
 }
 
@@ -275,6 +273,9 @@ section{
     min-height: 100vh;
 }
 
+#plans{
+    margin-top: -200px;
+}
 #trainers .row1{
     display: flex;
     justify-content: center;
@@ -489,7 +490,7 @@ button:active {
 }
 
 #banner1 p{
-    margin: 15px;
+    margin: 35px;
     color: orangered;
     font-family: "Yesteryear", cursive;
     font-weight: 400;
@@ -500,7 +501,7 @@ button:active {
 
 #banner1 button{
     padding: 20px 200px;
-    margin-left: 400px;
+    margin-left: 450px;
 }
 
 #testi img{
